@@ -1,0 +1,19 @@
+COMO PROBAR QUE TRASTO FUNCIONA
+
+en chrome sin mas localhost:8080 si metes datos y F5 se muestran en la lista
+
+desde el postman si pones en POST http://localhost:8080/api/v1/user/create y debajo datos como 
+    {"dni": "1111213","nombre": "chorizosdfsd","apellido": "bsdf","id": "1111213"}
+se cargan en la lista (en body raw JSON)
+GET o POST en /api/v1/user/list y se muestra la lista de bichos
+en chrome /api/v1/user/list y se muestran tambien
+
+
+ACTUALIZADO A POKEMONCIOS
+
+
+http://localhost:8080/api/v1/pokemon/list
+
+{"codigo": "1111213","nombre": "chorizosdfsd"}
+
+Ahora solo recibe 1 pokemon pero tambien se puede poner que reciba una lista de pokemons
