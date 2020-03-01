@@ -10,6 +10,5 @@
 <body>
 <div id="app"></div>
     <script src="built/bundle.js"></script>
-    
 </body>
 </html>
